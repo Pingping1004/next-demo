@@ -2,7 +2,6 @@ import {
     SignInButton,
     SignOutButton,
     SignUpButton,
-    UserButton,
     SignedIn,
     SignedOut,
   } from "@clerk/nextjs";
@@ -33,7 +32,6 @@ import {
               <SignedIn>
                 <Link href="/user-profile">Profile</Link>
                 <SignOutButton />
-                {/* <UserButton /> */}
               </SignedIn>
             </div>
           </div>
